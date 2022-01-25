@@ -50,7 +50,7 @@ public class UserService {
 			throw new UserNotFoundException("User not found in repository, please check the user ID.");
 		}
 		
-		user.setId(id);
+		user.setUserId(id);
 		
 		return userRepository.save(user);
 	}
