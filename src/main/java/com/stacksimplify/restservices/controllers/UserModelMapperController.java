@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.stacksimplify.restservices.Exceptions.UserNotFoundException;
-import com.stacksimplify.restservices.dto.UserMmDto;
+import com.stacksimplify.restservices.dtos.UserMmDto;
 import com.stacksimplify.restservices.entities.User;
 import com.stacksimplify.restservices.services.UserService;
 

@@ -1,4 +1,4 @@
-package com.stacksimplify.restservices.dto;
+package com.stacksimplify.restservices.dtos;
 
 public class UserMmDto {
 	
